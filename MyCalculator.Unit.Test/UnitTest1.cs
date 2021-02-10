@@ -37,6 +37,7 @@ namespace MyCalculator.Unit.Test
 
         [TestCase(4, 3,12)]
         [TestCase(-4, 3,-12)]
+        [TestCase(2, 3,6)]
         public void Multiply_TestCase(double a, double b, double expResult)
         {
             double result = uut.Multiply(a, b);
