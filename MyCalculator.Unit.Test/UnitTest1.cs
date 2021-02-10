@@ -45,7 +45,7 @@ namespace MyCalculator.Unit.Test
 
         [TestCase(4, 2, 16)]
         [TestCase(-4, 2, 16)]
-        [TestCase(-2, 2, 16)]
+        [TestCase(-2, 2, 4)]
         public void Power_TestCase(double a, double b, double expResult)
         {
             double result = uut.Power(a, b);
